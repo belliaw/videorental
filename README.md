@@ -46,6 +46,11 @@ Configuration
 The application has its data source configurable via the
 resources/configuration.properties file. 
 
+Note: The intitial db mode parameter is set to 'create'.
+Once the schema is created, it is suggested that this parameter
+is changed to 'validate' so that the application does not drop
+and re-create the schema with the consequence of losing data.
+
 Installation
 ------------
 
